@@ -12,7 +12,7 @@ var g_headers = {
 
 function main(){
     var prefs = AnyBalance.getPreferences();
-    var baseurl = "https://billing.serpuhov.biz/";
+    var baseurl = "http://billing.serpuhov.biz/";
 	checkEmpty(prefs.login, 'Введите логин!');
 	checkEmpty(prefs.password, 'Введите пароль!');
 	AnyBalance.setDefaultCharset('UTF-8');
